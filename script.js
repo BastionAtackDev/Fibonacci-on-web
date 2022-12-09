@@ -1,4 +1,5 @@
-let i=0;
+function generate(){
+    let i=0;
     let input = prompt('How many numbers of the Fibonacci sequence do you want to know ?');
     let string = ""
     let a=1;
@@ -17,5 +18,7 @@ let i=0;
         string = string + a+' ';}
         i++;
     }
-document.write(string);
-document.getElementById('fibo').innerHTML = string;
+    document.getElementById('fibo').innerHTML = string;
+}
+// document.write(string);
+
