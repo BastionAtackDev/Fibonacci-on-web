@@ -1,0 +1,15 @@
+* {
+    background-color: tomato;
+    color: azure;
+}
+div {
+    padding: 0px;
+    background-color: whitesmoke;
+    color:black;
+}
+h1{
+    background-color: #999;
+}
+a {
+    color: rgb(48, 204, 0);
+}
