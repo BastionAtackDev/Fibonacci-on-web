@@ -1,6 +1,7 @@
 TextInput = document.getElementById("TextInput").value;
 
 function generate(){
+    TextInput = document.getElementById("TextInput").value;
     let i=0;
     input = TextInput;
     let string = ""
@@ -20,7 +21,6 @@ function generate(){
         string = string + a+' ';}
         i++;
     }
-    console.log(string)
     document.getElementById('fibo').innerHTML = string;
 }
 
