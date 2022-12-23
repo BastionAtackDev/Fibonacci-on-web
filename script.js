@@ -1,5 +1,10 @@
 function generate(){
     TextInput = document.getElementById("TextInput").value;
+    if (document.getElementById("fnum").value === undefined){
+        fnum = 0;
+    }else{
+        fnum = document.getElementById("fnum").value;
+    }
     let i=0;
     input = TextInput;
     let string = "";
@@ -8,15 +13,19 @@ function generate(){
     let c=0;
     while(i < input){
         c=a+b;
-        string = string + c+' ';
+        if(i<input && c>=fnum){
+            string = string + c+' ';
+        }
         b=c+a;
         i++;
-        if(i<input){
-        string = string + b+' ';}
+        if(i<input && b>=fnum){
+            string = string + b+' ';
+        }
         i++;
         a=b+c;
-        if(i<input){
-        string = string + a+' ';}
+        if(i<input && a>=fnum){
+            string = string + a+' ';
+        }
         i++;
     }
     console.log(string);

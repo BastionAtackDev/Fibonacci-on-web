@@ -24,7 +24,18 @@ span {
     background-color: whitesmoke;
     color:black;
 }
-#TextInput{
-    background-color: brown;
-    color: azure;
+input{
+    background-color: whitesmoke;
+    color: black;
+}
+label{
+    background-color: whitesmoke;
+    color: black;
+}
+button{
+    background-color: whitesmoke;
+    color: black;
+}
+.text{
+    margin: 2px;
 }
