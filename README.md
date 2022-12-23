@@ -1,4 +1,4 @@
-# Fibo.js
+# Fibonacci-on-web
 🚀Generate Fibonacci sequence with html and javascript
 
 # Size and other stuff
