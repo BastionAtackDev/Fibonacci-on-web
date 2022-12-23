@@ -1,5 +1,3 @@
-TextInput = document.getElementById("TextInput").value;
-
 function generate(){
     TextInput = document.getElementById("TextInput").value;
     let i=0;
