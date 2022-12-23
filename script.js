@@ -1,6 +1,8 @@
+TextInput = document.getElementById("TextInput").value;
+
 function generate(){
     let i=0;
-    let input = prompt('How many numbers of the Fibonacci sequence do you want to know ?');
+    input = TextInput;
     let string = ""
     let a=1;
     let b=1;
@@ -18,7 +20,12 @@ function generate(){
         string = string + a+' ';}
         i++;
     }
+    console.log(string)
     document.getElementById('fibo').innerHTML = string;
 }
-// document.write(string);
 
+// document.write(string);
+//function gen2(){
+  //  Input = TextInput;
+  //  document.getElementById('fibo').innerHTML = generate(Input);
+//}
