@@ -1,7 +1,7 @@
 * {
     background-color: tomato;
     color: azure;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 div {
     padding: 0px;
@@ -11,7 +11,7 @@ div {
 h1{
     background-color: #999;
     margin-bottom: 0%;
-    font-size: 30px;
+    /* font-size: 30px; */
 }
 a {
     color: rgb(48, 204, 0);
