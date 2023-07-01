@@ -1,6 +1,6 @@
 {
-    "name":"PWAtest",
-    "short_name":"test",
+    "name":"Fibonacci-on-web",
+    "short_name":"Fibonacci",
     "start_url":"/",
     "icons":[
         {
