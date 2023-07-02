@@ -1,7 +1,7 @@
 {
     "name":"Fibonacci-on-web",
     "short_name":"Fibonacci",
-    "start_url":"/",
+    "start_url":"/Fibonacci-on-web",
     "icons":[
         {
           "src": "icons/manifest-icon-192.maskable.png",
